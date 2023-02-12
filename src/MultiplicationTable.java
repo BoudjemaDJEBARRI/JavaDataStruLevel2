@@ -4,6 +4,7 @@ public class MultiplicationTable {
 
     public static void main(String[] args) {
 
+        //
         System.out.println("Enter your multiplication table : ");
         Scanner scan1 = new Scanner(System.in);
         int n1 = scan1.nextInt();
