@@ -14,6 +14,7 @@ public class CountDuplicateChar {
         // Text to character array
         char[] char1 = text1.toCharArray();
 
+        //Store the characters in HashMap
         Map<Character, Integer> charMap1 = new HashMap<>();
         for (Character ch1 : char1) {
             if (charMap1.containsKey(ch1)){
@@ -23,6 +24,7 @@ public class CountDuplicateChar {
             }
         }
 
+        // ???????
         Set<Character> keys1 = charMap1.keySet();
         for (Character ch1 : keys1) {
             if (charMap1.get(ch1) >= 1){
